@@ -1,0 +1,40 @@
+
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url('./imagens/cat.jpg');
+}
+ 
+.bg-image {
+    width: 640px;
+    height: 400px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 640px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 500px
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 560px;
+}
+
+.bg-position {
+    /* background-position: bottom right;
+    background-repeat: no-repeat; */
+    height: 560px;
+
+    background: #000 url(./imagens/cat.jpg) no-repeat right top;
+}
